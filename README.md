@@ -83,3 +83,24 @@ https://demo.twilio.com/welcome/sms/reply/
 (beta) This number is new to the Twilio Platform
 
 (hosted) This number is hosted on the Twilio Platform
+
+------------------------------------------------------------------------------------------------------------------
+
+General settings
+Account details
+Account name
+My first Twilio account
+Account SID
+ACfdbebe88b707a5a91816522b74a2613a
+Note: Auth tokens are relocated. You can now find your API keys and Auth tokens in one place on the API keys & tokens.
+
+SSL certificate validation
+Determines if certificate validation is performed on all Twilio originated requests.
+Enabled: Enforces certificate validation on webhooks from Twilio to your servers. Twilio does not support self-signed certificates yet.
+Disabled: Does not enforce certificate validation on webhooks from Twilio to your servers. This is not recommended for production services and should only be used during development.
+Public key client validation
+Public Key Client Validation provides an additional layer of security by validating the origin and integrity of the request being sent to Twilio. This is achieved by sharing a public key with Twilio and then signing each request with the associated private key.
+
+Public key client Validation is an Enterprise feature. Learn more about Enterprise
+
+
